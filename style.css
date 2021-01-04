@@ -7,6 +7,10 @@ h1 {
     font-size: 50px;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .higlight {
     color: yellow;
 }
@@ -28,6 +32,7 @@ h1 {
 
 section {
     height: 500px;
+    margin-bottom: 80px;
 }
 
 .link_button {
@@ -56,4 +61,34 @@ section {
 
 .experiece_area h2 {
     text-align: left;
+}
+
+.single_block {
+    box-shadow: 10px 10px 40px gray;
+    padding: 10px;
+    border-radius: 5px;
+    height: 60%;
+    background-color: #fff;
+}
+
+.experience_area {
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+#full_stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+
+#baby_web {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, black);
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
