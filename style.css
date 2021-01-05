@@ -12,7 +12,7 @@ h2 {
 }
 
 .higlight {
-    color: yellow;
+    color: tomato;
 }
 
 .half_width {
@@ -23,6 +23,7 @@ h2 {
 
 .half_width img {
     width: 100%;
+    height: 100%;
 }
 
 .top-banner {
@@ -32,7 +33,8 @@ h2 {
 
 section {
     height: 500px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+    overflow: hidden;
 }
 
 .link_button {
